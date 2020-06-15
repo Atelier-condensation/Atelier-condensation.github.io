@@ -1,0 +1,267 @@
+
+body {
+  background: /*linear-gradient(to right,transparent, 70%, whitesmoke),*/
+  url(../image/ciel.jpg);
+ background-size: cover;
+ cursor:  url(../image/nuage.png)default;
+  }
+
+  a{
+    text-decoration: none;/*Pour que le lien ne soit plus "souligné"...*/
+    color:black ; /*ça reste un exemple*/
+}
+
+ a:hover{
+  color: dodgerblue;
+}
+
+  h1 {
+    top: 4%;
+    right: 2%;
+    position: fixed;
+    color: black;
+    opacity: 1;
+    font-size: 60px;
+    font-family: 'CirrusCumulus'; 
+      font-weight: normal; 
+      text-align: right;
+        }
+
+    h2 {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 40%;
+    position: relative;
+    color:black;
+    opacity: 1;
+    font-size: 25px;
+    text-indent: -10%; /* Les paragraphes commenceront 30 pixels sur la droite */ 
+    font-family: 'Helvetica'; 
+        font-weight: normal; 
+        font-style: normal;
+        text-align: left;
+    }
+
+    /* bas de page */
+    h3 {
+      margin-top: 5%;
+      margin-left: 15%;
+      margin-right: 40%;
+      position: relative;
+      color:black;
+      font-size: 15px;
+      font-family: 'helvetica'; 
+          font-weight: normal; 
+          font-style: normal;
+          text-align: left;
+      }
+
+    h4 {
+      top: 12%;
+      right: 2%;
+      position: fixed;
+      color:black;
+    opacity: 1;
+    font-size: 40px;
+      font-family: 'Helvetica';
+          font-weight: normal;
+          text-align: right;
+      }
+
+      h5 {
+        margin-top: 12%;
+        margin-left: 10%;
+        margin-right: 15%;
+        position: relative;
+        color:dodgerblue;
+        font-size: 20px;
+        font-family: 'helvetica'; 
+            font-weight: normal; 
+            font-style: normal;
+            text-align: left;
+        }
+
+        h6 {
+          margin-top: 2%;
+          margin-left: 10%;
+          margin-right: 50%;
+          columns: 2;
+          position: relative;
+          color:black;
+          font-size: 25px;
+          font-family: 'Helvetica'; 
+              font-weight: normal; 
+              font-style: normal;
+              text-align: left;
+          }
+
+.titre{
+  margin-top: 10%;
+  color: black;
+  opacity: 1;
+  font-size: 180px;
+  font-family: 'CirrusCumulus'; 
+    font-weight: normal; 
+    text-align: center;
+}
+
+    .couleur2 {
+    -webkit-transition: color 0.5s;
+    transition: color 1s;
+    }
+    
+    .couleur2:hover {
+    color: whitesmoke;
+    }
+
+    .avant{ 
+    color: dodgerblue;
+    display: initial;
+    }
+
+
+.display{
+  display: absolute;
+  margin-top: 90%;
+}
+
+.chapitre{
+     text-align: center;
+     opacity: 1 ;
+    color: black;
+    font-size: 40px;
+    font-family: 'Helvetica'; 
+      font-style: normal;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 1%;
+      padding: 5px;
+}
+.chapitre:hover{
+  color: dodgerblue;
+  filter: drop-shadow(5px 5px 5px black);
+  
+}
+
+.wrapper {
+  column-count: 2;
+  margin-top: 4%;
+  text-align: center;
+}
+
+.container {
+  margin-left: 12%;
+  margin-right: 42%;
+  position: relative;
+  color: black;
+  font-size: 16px;
+  font-family: 'helvetica'; 
+      font-weight: normal; 
+      font-style: normal;
+      text-align: left;
+  column-count: 2;
+}
+
+.colonne {
+  margin-top: 12%;
+  margin-left: 5%;
+  margin-right: 15%;
+  position: relative;
+  color: black;
+  font-size: 8px;
+  font-size: 25px;
+  text-indent: 15%; /* Les paragraphes commenceront 30 pixels sur la droite */ 
+  font-family: 'Helvetica'; 
+      font-weight: normal; 
+      font-style: normal;
+      text-align: left;
+  column-count: 2;
+}
+
+.imagetxt {
+  height: auto;
+  position: absolute;
+  margin-left: 65%;}
+
+.video{
+  margin-top: 8%;
+  margin-left: 12%;
+}
+
+.video1{
+  margin-top: 0%;
+  margin-left: 39%;
+  position: absolute;
+}
+
+.biblio{
+  margin-top: 3%;
+  margin-left: 25%;
+  margin-right: 40%;
+  position: relative;
+  color: black;
+  font-size: 20px;
+  text-indent: -10%; /* Les paragraphes commenceront sur la droite */ 
+  font-family: 'helvetica'; 
+      text-align: left;
+}
+
+.ciel{
+  margin-left: 0%;
+  margin-right: 30%;
+  text-align: center;
+  display: center;
+}
+
+.papier{
+  position: relative;
+  text-align: left;
+  margin-left: 3%;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 1%; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  padding: 20px 20px;
+  text-decoration: none;
+  opacity: 1;
+  font-size: 20px;
+  font-family: 'Helvetica'; 
+    font-weight: normal; 
+    font-style: bold;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.note{
+  bottom: 2%;
+  margin-top: 2%;
+      margin-left: 75%;
+      margin-right: 2%;
+      position: fixed;
+      color:black;
+      font-size: 15px;
+      font-family: 'helvetica';
+          text-align: left;
+          font-style: italic;
+          
+}
